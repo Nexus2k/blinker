@@ -43,7 +43,7 @@ python blinker.py
 - **Top-left**: App title
 - **Left panel**: Blink count, blinks/minute, current EAR value
 - **Top-right**: Circular timer showing seconds since last blink (green → yellow → red)
-- **Center banner**: Pulsing "BLINK NOW!" alert when 10s exceeded
+- **Center banner**: Pulsing "BLINK NOW!" alert when ALERT_INTERVAL_SEC is exceeded
 - **Bottom**: Controls reference
 
 ## Configuration
