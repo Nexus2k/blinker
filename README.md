@@ -1,6 +1,6 @@
 # 👁️ Blinker – Eye Blink Detection & Reminder
 
-A real-time eye blink tracker that uses your USB webcam to monitor blinking and reminds you to blink if you haven't in 10 seconds.
+A real-time eye blink tracker that uses your USB webcam to monitor blinking and reminds you to blink if you haven't in 6 seconds.
 
 Built with **Python**, **OpenCV**, and **MediaPipe FaceLandmarker**.
 
@@ -54,7 +54,7 @@ Edit the constants at the top of `blinker.py`:
 |----------------------|---------|------------------------------------|
 | `EAR_THRESHOLD`      | 0.21    | EAR below this = eyes closed       |
 | `EAR_CONSEC_FRAMES`  | 2       | Frames below threshold for a blink |
-| `ALERT_INTERVAL_SEC` | 10.0    | Seconds before alert               |
+| `ALERT_INTERVAL_SEC` | 6.0     | Seconds before alert               |
 | `CAMERA_INDEX`       | 0       | Webcam device index                |
 
 ## Donations
